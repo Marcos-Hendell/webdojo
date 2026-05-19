@@ -5,7 +5,6 @@ import 'cypress-real-events' // Importa plugin para simular eventos reais (mouse
 import './actions/consultancy.actions'
 Cypress.Commands.add('start', () => {
 
-    cy.viewport(1440, 900) // Define o tamanho da tela (simula desktop)
 
     cy.visit('/') // Abre a aplicação no navegador
 
